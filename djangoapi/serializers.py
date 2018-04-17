@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Data
+from .models import emp
 
 class DataSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Data
+        model = emp
         fields = '__all__'
